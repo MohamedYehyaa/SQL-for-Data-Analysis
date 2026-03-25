@@ -1,6 +1,9 @@
-/* Project: Sales Growth & Trend Analysis
-   Description: Using Window Functions to analyze Year-over-Year (YoY) sales, 
-                identifying next year's trends, and capturing first/last records.
+/* ==========================================================================
+Description: Advanced Product Sales Analysis using Window Functions.
+Techniques: CTEs, LAG, LEAD, FIRST_VALUE, LAST_VALUE with Framing.
+Author: Mohamed Yehya
+Date: 2026-03-25
+==========================================================================
 */
 
 WITH CTE_table AS (
